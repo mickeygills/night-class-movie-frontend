@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.home-container-div {
+  min-height: 72vh;
+}
+
+.home-container a {
+  text-decoration: none;
+  color: rgb(238, 98, 250);
+  font-size: 25px;
+}

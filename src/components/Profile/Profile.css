@@ -1,0 +1,66 @@
+.profile-container {
+  min-height: 75vh;
+}
+
+.profile-container h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.favorite-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.favorite-container-column {
+  flex: 50%;
+  padding-right: 10px;
+}
+
+.favorite-one {
+  flex: 1 1 0;
+}
+
+.favorite-two {
+  flex: 2 1 0;
+}
+
+.favorite-container div {
+  margin-top: 10px;
+}
+
+.favorite-container .delete-button {
+  margin-top: 25px;
+}
+.favorite-container .delete-button button {
+  padding: 10px 10px;
+  border: none;
+  width: 250px;
+  background-color: rgb(255, 6, 6);
+  color: white;
+  border-radius: 25px 25px;
+  text-align: center;
+}
+
+.favorite-container img {
+  height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .favorite-container {
+    flex-direction: column;
+  }
+
+  .favorite-containe-column {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .favorite-container-column img {
+    width: 50%;
+  }
+}

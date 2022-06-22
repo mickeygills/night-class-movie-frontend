@@ -1,0 +1,16 @@
+.footer-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link a {
+  color: white;
+  margin-right: 25px;
+  text-decoration: none;
+}
