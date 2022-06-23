@@ -7,7 +7,7 @@ function Header({ user, logout }) {
   return (
     <div className="header-container">
       <div className="header-container-title">
-        <h1>Noble movie App</h1>
+        <h1>Welcome to Noble Movie App</h1>
       </div>
 
       <div className="header-link">
